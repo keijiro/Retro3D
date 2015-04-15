@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 690485bcbacbb4aad98363045953bf7d
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: constraint_grp
+    100002: geo
+    100004: head_anim
+    100006: head_ctrl
+    100008: ikHandle1
+    100010: l_ankle_anim
+    100012: l_arm_ik
+    100014: l_arm_ik_ctrl
+    100016: l_ball_anim
+    100018: l_ball_anim_ik
+    100020: l_ball_anim_ik_grp
+    100022: l_ball_ik
+    100024: l_ball_pivot
+    100026: l_clavice_ctrl
+    100028: l_clavicle_anim
+    100030: l_elbow_anim
+    100032: l_elbow_anim_fk
+    100034: l_elbow_anim_ik
+    100036: l_elbow_ctrl
+    100038: l_foot_ctrl
+    100040: l_knee_anim
+    100042: l_knee_const_grp
+    100044: l_knee_ctrl
+    100046: l_leg_ik
+    100048: l_shoulder_anim
+    100050: l_shoulder_anim_fk
+    100052: l_shoulder_anim_ik
+    100054: l_shoulder_const_grp
+    100056: l_toe_anim_ik
+    100058: l_toe_ik
+    100060: l_toe_ik_pivot
+    100062: l_toe_pivot
+    100064: l_upper_leg_anim
+    100066: l_wrist_anim
+    100068: l_wrist_anim_fk
+    100070: l_wrist_anim_ik
+    100072: misc_rig_ctrl
+    100074: pelvis_anim
+    100076: pelvis_ctrl
+    100078: //RootNode
+    100080: position_ctrl
+    100082: r_ankle_anim
+    100084: r_arm_ik_ctrl
+    100086: r_ball_anim
+    100088: r_ball_anim_ik
+    100090: r_ball_anim_ik_grp
+    100092: r_ball_ik
+    100094: r_ball_pivot
+    100096: r_clavice_ctrl
+    100098: r_clavicle_anim
+    100100: r_clavicle_orient
+    100102: r_elbow_anim
+    100104: r_elbow_anim_fk
+    100106: r_elbow_anim_ik
+    100108: r_elbow_ctrl
+    100110: r_foot_ctrl
+    100112: r_knee_anim
+    100114: r_knee_const_grp
+    100116: r_knee_ctrl
+    100118: r_leg_ik
+    100120: r_shoulder_anim
+    100122: r_shoulder_anim_fk
+    100124: r_shoulder_anim_ik
+    100126: r_shoulder_const_grp
+    100128: r_toe_anim_ik
+    100130: r_toe_ik
+    100132: r_toe_ik_pivot
+    100134: r_toe_pivot
+    100136: r_upper_leg_anim
+    100138: r_wrist_anim
+    100140: r_wrist_anim_fk
+    100142: r_wrist_anim_ik
+    100144: root_anim
+    100146: root_ctrl
+    100148: spinea_anim
+    100150: spinea_ctrl
+    100152: spineb_anim
+    100154: spineb_ctrl
+    100156: taila_anim
+    100158: taila_ctrl
+    100160: taila_orient_grp
+    100162: tailb_anim
+    100164: tailb_ctrl
+    100166: tailb_orient_grp
+    400000: constraint_grp
+    400002: geo
+    400004: head_anim
+    400006: head_ctrl
+    400008: ikHandle1
+    400010: l_ankle_anim
+    400012: l_arm_ik
+    400014: l_arm_ik_ctrl
+    400016: l_ball_anim
+    400018: l_ball_anim_ik
+    400020: l_ball_anim_ik_grp
+    400022: l_ball_ik
+    400024: l_ball_pivot
+    400026: l_clavice_ctrl
+    400028: l_clavicle_anim
+    400030: l_elbow_anim
+    400032: l_elbow_anim_fk
+    400034: l_elbow_anim_ik
+    400036: l_elbow_ctrl
+    400038: l_foot_ctrl
+    400040: l_knee_anim
+    400042: l_knee_const_grp
+    400044: l_knee_ctrl
+    400046: l_leg_ik
+    400048: l_shoulder_anim
+    400050: l_shoulder_anim_fk
+    400052: l_shoulder_anim_ik
+    400054: l_shoulder_const_grp
+    400056: l_toe_anim_ik
+    400058: l_toe_ik
+    400060: l_toe_ik_pivot
+    400062: l_toe_pivot
+    400064: l_upper_leg_anim
+    400066: l_wrist_anim
+    400068: l_wrist_anim_fk
+    400070: l_wrist_anim_ik
+    400072: misc_rig_ctrl
+    400074: pelvis_anim
+    400076: pelvis_ctrl
+    400078: //RootNode
+    400080: position_ctrl
+    400082: r_ankle_anim
+    400084: r_arm_ik_ctrl
+    400086: r_ball_anim
+    400088: r_ball_anim_ik
+    400090: r_ball_anim_ik_grp
+    400092: r_ball_ik
+    400094: r_ball_pivot
+    400096: r_clavice_ctrl
+    400098: r_clavicle_anim
+    400100: r_clavicle_orient
+    400102: r_elbow_anim
+    400104: r_elbow_anim_fk
+    400106: r_elbow_anim_ik
+    400108: r_elbow_ctrl
+    400110: r_foot_ctrl
+    400112: r_knee_anim
+    400114: r_knee_const_grp
+    400116: r_knee_ctrl
+    400118: r_leg_ik
+    400120: r_shoulder_anim
+    400122: r_shoulder_anim_fk
+    400124: r_shoulder_anim_ik
+    400126: r_shoulder_const_grp
+    400128: r_toe_anim_ik
+    400130: r_toe_ik
+    400132: r_toe_ik_pivot
+    400134: r_toe_pivot
+    400136: r_upper_leg_anim
+    400138: r_wrist_anim
+    400140: r_wrist_anim_fk
+    400142: r_wrist_anim_ik
+    400144: root_anim
+    400146: root_ctrl
+    400148: spinea_anim
+    400150: spinea_ctrl
+    400152: spineb_anim
+    400154: spineb_ctrl
+    400156: taila_anim
+    400158: taila_ctrl
+    400160: taila_orient_grp
+    400162: tailb_anim
+    400164: tailb_ctrl
+    400166: tailb_orient_grp
+    4300000: geo
+    7400000: WIN
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: geo
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WIN
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: root_anim
+        weight: 1
+      - path: root_anim/spinea_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/head_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/l_clavicle_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/l_clavicle_anim/l_shoulder_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/l_clavicle_anim/l_shoulder_anim/l_elbow_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/l_clavicle_anim/l_shoulder_anim/l_elbow_anim/l_wrist_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/r_clavicle_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/r_clavicle_anim/r_shoulder_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/r_clavicle_anim/r_shoulder_anim/r_elbow_anim
+        weight: 1
+      - path: root_anim/spinea_anim/spineb_anim/r_clavicle_anim/r_shoulder_anim/r_elbow_anim/r_wrist_anim
+        weight: 1
+      - path: root_anim/pelvis_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/taila_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/taila_anim/tailb_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/r_upper_leg_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/r_upper_leg_anim/r_knee_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/r_upper_leg_anim/r_knee_anim/r_ankle_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/r_upper_leg_anim/r_knee_anim/r_ankle_anim/r_ball_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/l_upper_leg_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/l_upper_leg_anim/l_knee_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/l_upper_leg_anim/l_knee_anim/l_ankle_anim
+        weight: 1
+      - path: root_anim/pelvis_anim/l_upper_leg_anim/l_knee_anim/l_ankle_anim/l_ball_anim
+        weight: 1
+      - path: position_ctrl
+        weight: 1
+      - path: position_ctrl/l_knee_const_grp
+        weight: 1
+      - path: position_ctrl/l_knee_const_grp/l_knee_ctrl
+        weight: 1
+      - path: position_ctrl/r_knee_const_grp
+        weight: 1
+      - path: position_ctrl/r_knee_const_grp/r_knee_ctrl
+        weight: 1
+      - path: position_ctrl/l_elbow_ctrl
+        weight: 1
+      - path: position_ctrl/r_elbow_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/spinea_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/spinea_ctrl/spineb_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/spinea_ctrl/spineb_ctrl/head_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/spinea_ctrl/spineb_ctrl/l_clavice_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/spinea_ctrl/spineb_ctrl/r_clavicle_orient
+        weight: 1
+      - path: position_ctrl/root_ctrl/spinea_ctrl/spineb_ctrl/r_clavicle_orient/r_clavice_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/pelvis_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/pelvis_ctrl/taila_orient_grp
+        weight: 1
+      - path: position_ctrl/root_ctrl/pelvis_ctrl/taila_orient_grp/taila_ctrl
+        weight: 1
+      - path: position_ctrl/root_ctrl/pelvis_ctrl/taila_orient_grp/taila_ctrl/tailb_orient_grp
+        weight: 1
+      - path: position_ctrl/root_ctrl/pelvis_ctrl/taila_orient_grp/taila_ctrl/tailb_orient_grp/tailb_ctrl
+        weight: 1
+      - path: position_ctrl/l_arm_ik_ctrl
+        weight: 1
+      - path: position_ctrl/l_arm_ik_ctrl/l_arm_ik
+        weight: 1
+      - path: position_ctrl/r_arm_ik_ctrl
+        weight: 1
+      - path: position_ctrl/r_arm_ik_ctrl/ikHandle1
+        weight: 1
+      - path: position_ctrl/l_foot_ctrl
+        weight: 1
+      - path: position_ctrl/l_foot_ctrl/l_toe_pivot
+        weight: 1
+      - path: position_ctrl/l_foot_ctrl/l_toe_pivot/l_ball_pivot
+        weight: 1
+      - path: position_ctrl/l_foot_ctrl/l_toe_pivot/l_ball_pivot/l_leg_ik
+        weight: 1
+      - path: position_ctrl/l_foot_ctrl/l_toe_pivot/l_ball_pivot/l_ball_ik
+        weight: 1
+      - path: position_ctrl/l_foot_ctrl/l_toe_pivot/l_toe_ik_pivot
+        weight: 1
+      - path: position_ctrl/l_foot_ctrl/l_toe_pivot/l_toe_ik_pivot/l_toe_ik
+        weight: 1
+      - path: position_ctrl/r_foot_ctrl
+        weight: 1
+      - path: position_ctrl/r_foot_ctrl/r_toe_pivot
+        weight: 1
+      - path: position_ctrl/r_foot_ctrl/r_toe_pivot/r_ball_pivot
+        weight: 1
+      - path: position_ctrl/r_foot_ctrl/r_toe_pivot/r_ball_pivot/r_leg_ik
+        weight: 1
+      - path: position_ctrl/r_foot_ctrl/r_toe_pivot/r_ball_pivot/r_ball_ik
+        weight: 1
+      - path: position_ctrl/r_foot_ctrl/r_toe_pivot/r_toe_ik_pivot
+        weight: 1
+      - path: position_ctrl/r_foot_ctrl/r_toe_pivot/r_toe_ik_pivot/r_toe_ik
+        weight: 1
+      - path: misc_rig_ctrl
+        weight: 1
+      - path: misc_rig_ctrl/constraint_grp
+        weight: 1
+      - path: misc_rig_ctrl/r_shoulder_const_grp
+        weight: 1
+      - path: misc_rig_ctrl/r_shoulder_const_grp/r_shoulder_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/r_shoulder_const_grp/r_shoulder_anim_ik/r_elbow_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/r_shoulder_const_grp/r_shoulder_anim_ik/r_elbow_anim_ik/r_wrist_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/r_shoulder_const_grp/r_shoulder_anim_fk
+        weight: 1
+      - path: misc_rig_ctrl/r_shoulder_const_grp/r_shoulder_anim_fk/r_elbow_anim_fk
+        weight: 1
+      - path: misc_rig_ctrl/r_shoulder_const_grp/r_shoulder_anim_fk/r_elbow_anim_fk/r_wrist_anim_fk
+        weight: 1
+      - path: misc_rig_ctrl/l_shoulder_const_grp
+        weight: 1
+      - path: misc_rig_ctrl/l_shoulder_const_grp/l_shoulder_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/l_shoulder_const_grp/l_shoulder_anim_ik/l_elbow_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/l_shoulder_const_grp/l_shoulder_anim_ik/l_elbow_anim_ik/l_wrist_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/l_shoulder_const_grp/l_shoulder_anim_fk
+        weight: 1
+      - path: misc_rig_ctrl/l_shoulder_const_grp/l_shoulder_anim_fk/l_elbow_anim_fk
+        weight: 1
+      - path: misc_rig_ctrl/l_shoulder_const_grp/l_shoulder_anim_fk/l_elbow_anim_fk/l_wrist_anim_fk
+        weight: 1
+      - path: misc_rig_ctrl/l_ball_anim_ik_grp
+        weight: 1
+      - path: misc_rig_ctrl/l_ball_anim_ik_grp/l_ball_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/l_ball_anim_ik_grp/l_ball_anim_ik/l_toe_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/r_ball_anim_ik_grp
+        weight: 1
+      - path: misc_rig_ctrl/r_ball_anim_ik_grp/r_ball_anim_ik
+        weight: 1
+      - path: misc_rig_ctrl/r_ball_anim_ik_grp/r_ball_anim_ik/r_toe_anim_ik
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
