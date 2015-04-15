@@ -33,14 +33,9 @@
                 v2f o;
 
                 float4 wp = mul(UNITY_MATRIX_MV, v.vertex);
-
-                float3 fwp = wp.xyz * _GeoRes;
-                fwp = (fwp - frac(fwp)) / _GeoRes;
-
-                wp.xyz = fwp;
+                wp.xyz = floor(wp.xyz * _GeoRes) / _GeoRes;
 
                 float4 sp = mul(UNITY_MATRIX_P, wp);
-
                 o.position = sp;
 
                 float2 uv = TRANSFORM_TEX(v.texcoord, _MainTex);
